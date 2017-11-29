@@ -4,15 +4,15 @@ let names = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'ch
 
 let allProducts = [];
 const container = document.getElementById('image_container');
-const viewed = [];
-const labels = [];
+let viewed = [];
+let labels = [];
 const pics = [document.getElementById('left'),
                 document.getElementById('center'), //eslint-disable-line
                 document.getElementById('right')]; //eslint-disable-line
 const list = document.getElementById('productlist');
 let totalClicks = 0;
-const views = [];
-const votes = [];
+let views = [];
+let votes = [];
 
 function Product(name) {
   this.name = name;
