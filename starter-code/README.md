@@ -22,10 +22,11 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Let and const act as variable declarations. Const is more complex than let and must be declared globally or locally but not both because it is block scoped. The let declaration can be used locally after being declared globally.
+After changing all lets to const I had to replace the locally declared const with let with in functions and for loops.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+The template literal notation makes sense but I am more familiar with the concatenation and logic of adding(+) string with function information. Just need more practice.
