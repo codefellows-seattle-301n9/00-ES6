@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+(I switched const to let whenever I was using a loop. I also changed two variables allProducts adn letClicks as well since they are variables that change.)
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+(It was easy once I figured out what needed to be changed in the constructors i.e. anything that was not a string. )
