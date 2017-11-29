@@ -34,7 +34,6 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
   // PUT YOUR RESPONSE IN THIS COMMENT The console.log is outside of the brackets of the function in which it was declaired locally by let.  Let declares variables in a local scope only.
   console.log(viewed)
