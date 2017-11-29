@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Literals are variables whose value never changes.  If the value of a const was changed, it generated an error.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+I had to Google the answer, and when I did, I at first replaced the + with ${ or }.  Then I realized the whole thing had to be within a single set of quotes, rather than the existing quotes around the literal text.  Then that didn't work, and I had to get help from a TA to changed the quote marks into backticks.  Just point me in the right direction and I'll do whatever you want until you make me do something else.
