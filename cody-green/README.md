@@ -22,10 +22,11 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+(so what i noticed from reading up on it a bit more was that the const cant change so it can be an array or a set value but if it changes it will throw a bunch of errors so on the places that we found errors we changed those places to let which is block scoped so it works in for loops for this example. the patterns i saw were that i had to change all the for loops from const to let because the value for const was always changing in the for loop so making it a let was what was needed.)
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+(After a brief period of research this went very smoothly with some assistance from amber for the path concatenation showing us that we didnt need the spaces between the img ${name} .jpg the rest of the concatenations went swimmingly. i will for sure be using template literals in the future it felt easier gonna need more practice with them so that will be fun.
+)
