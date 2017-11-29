@@ -23,9 +23,10 @@ Follow these instructions carefully and in order.
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
 (Put your answer here)
-
+const must be used with a consistent value for whatever variable is being declared. let allows a new value for the same variable declaration, which is why let is used in the for loops as well as the number of clicks that a user performs when clicking o nthe images.
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
 (Put your answer here)
+We researched the concatinations to temperate literals and depending on the concatination, spaces may or may not be required depending on whether or not the line of code is presenting data (use spaces), or defining the pathways between files (which use no spaces). We will definitely be using template literals.
