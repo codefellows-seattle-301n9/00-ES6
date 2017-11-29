@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Whenever we needed the variable to change, i used 'let', for example in the for loops, we need i to change and 'const' would break our code. Also, changed 'totalClicks' to 'let', because we incrementing that variable as well. Everywhere else 'const' was sufficient, the 'const' arrays were the only variable that broke the pattern to me, but after the readings i found out that 'const' objects allow to push/pop.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It was fairly easy for me, i'm used to using template literal in iOS and prefer that style instead of the + concatenation. I do intend on using template literal notation because to me it seems more easy to read and to type.
