@@ -35,7 +35,7 @@ function displayPics(){
     }
   }
   // console.log(rando);
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
+  // TODONE: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
   // The above console log threw an error because 'rando' is a local variable declaration using 'const' which requires a global scope declaration.
   console.log(viewed)
 
