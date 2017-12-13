@@ -35,7 +35,7 @@ function displayPics(){
     }
   }
   console.log(rando);
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `const to `const`.
+  // TODONE: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `const to `const`.
   // The previous line threw an error because the var variable cannot create a property on the global object. It can only be used inside the function.
   console.log(viewed)
 
